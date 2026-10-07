@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTO PARTES CHINOS Y KOREANOS - Repuestos Automotrices en Medellín</title>
+    <!-- Conexión con el archivo de estilos CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Carga de fuentes solicitadas de Google Fonts: Slab Serif para títulos y Sans-Serif para cuerpo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========================================== -->
+    <!-- 1. ENCABEZADO (HEADER) CON FLEXBOX          -->
+    <!-- ========================================== -->
+    <header class="encabezado">
+        <div class="contenedor encabezado-contenido">
+            <!-- Nombre o Logo del Negocio -->
+            <div class="logo">
+                <a href="#inicio">CHINOS Y <span>KOREANOS</span></a>
+            </div>
+            
+            <!-- Menú de Navegación -->
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ========================================== -->
+        <!-- 2. SECCIÓN PRINCIPAL (HERO)                -->
+        <!-- ========================================== -->
+        <section id="inicio" class="hero">
+            <div class="contenedor hero-contenedor">
+                <!-- Columna Izquierda: Información Principal -->
+                <div class="hero-columna-texto">
+                    <span class="insignia">Almacén de Repuestos Automotrices</span>
+                    <h1 class="hero-titulo">AUTO PARTES CHINOS Y KOREANOS</h1>
+                    <p class="hero-eslogan">"El poder de mantenerte en marcha"</p>
+                    <p class="hero-descripcion">
+                        Ofrecemos un catálogo multimarca completo de repuestos y autopartes originales y homologadas de alta calidad para vehículos particulares y comerciales. Especializados en marcas como KIA, HYUNDAI, DFSK, CHERY, JAC y FOTON.
+                    </p>
+                    <a href="#contacto" class="boton boton-principal">Solicitar Cotización</a>
+                </div>
+
+                <!-- Columna Derecha: Imagen Ilustrativa -->
+                <div class="hero-columna-imagen">
+                    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=800&q=80" alt="Repuestos y autopartes de motor en almacén especializado">
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- 3. SECCIÓN NOSOTROS                        -->
+        <!-- ========================================== -->
+        <section id="nosotros" class="seccion nosotros">
+            <div class="contenedor nosotros-contenedor">
+                <!-- Imagen Informativa -->
+                <div class="nosotros-imagen">
+                    <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=800&q=80" alt="Mecánico inspeccionando autopartes para vehículos coreanos y chinos">
+                </div>
+
+                <!-- Texto Descriptivo -->
+                <div class="nosotros-texto">
+                    <h2>Quiénes Somos</h2>
+                    <p>
+                        Somos un almacén de repuestos especializado en la importación y comercialización de autopartes para vehículos chinos y coreanos en la ciudad de Medellín.
+                    </p>
+                    <p>
+                        <strong>¿Qué hacemos?</strong> Importamos refacciones originales y homologadas garantizando durabilidad y compatibilidad perfecta.
+                    </p>
+                    <p>
+                        <strong>¿A quién ayudamos?</strong> Apoyamos directamente a conductores particulares, mecánicos y empresas con flotas comerciales que necesitan mantener sus vehículos operativos sin perder tiempo.
+                    </p>
+                    <p>
+                        <strong>Nuestra diferencia:</strong> Brindamos verificación técnica exacta por código VIN y despacho inmediato con asesoría experta.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- 4. SECCIÓN PRODUCTOS / SERVICIOS (TARJETAS)-->
+        <!-- ========================================== -->
+        <section id="productos" class="seccion productos">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Nuestros Productos y Servicios</h2>
+                <p class="subtitulo-seccion">Soluciones integrales en repuestos para su vehículo o taller mecánico</p>
+
+                <!-- Contenedor Flexbox de Tarjetas -->
+                <div class="productos-contenedor">
+                    
+                    <!-- Tarjeta 1 -->
+                    <article class="tarjeta">
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="Logística y despacho especializado de repuestos">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Logística y Despacho Especializado</h3>
+                            <p>Envíos urgentes y seguros de repuestos directamente a talleres o domicilio en Medellín y a nivel nacional.</p>
+                            <span class="tarjeta-info">Servicio Exprés Disponible</span>
+                            <a href="#contacto" class="boton boton-tarjeta">Consultar Cobertura</a>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 2 -->
+                    <article class="tarjeta">
+                        <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=600&q=80" alt="Búsqueda e importación de repuestos bajo pedido">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Búsqueda e Importación Bajo Pedido</h3>
+                            <p>Ubicación e importación de partes difíciles de conseguir para modelos específicos chinos o coreanos.</p>
+                            <span class="tarjeta-info">Atención Bajo Solicitud</span>
+                            <a href="#contacto" class="boton boton-tarjeta">Cotizar Repuesto</a>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 3 -->
+                    <article class="tarjeta">
+                        <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=600&q=80" alt="Asesoría y verificación digital de catálogo">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Asesoría y Verificación Digital</h3>
+                            <p>Atención remota para validar fotografías, referencias y especificaciones antes de realizar la compra.</p>
+
+                            <span class="tarjeta-info">Atención 100% Digital</span>
+                            <a href="#contacto" class="boton boton-tarjeta">Hablar con Asesor</a>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 4 -->
+                    <article class="tarjeta">
+                        <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80" alt="Servicio postventa y fidelización de clientes">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Servicio Postventa y Fidelización</h3>
+                            <p>Garantía directa en componentes y programa especial de atención con descuentos para talleres aliados.</p>
+                            <span class="tarjeta-info">Garantía Asegurada</span>
+                            <a href="#contacto" class="boton boton-tarjeta">Más Información</a>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 5 -->
+                    <article class="tarjeta">
+                        <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=600&q=80" alt="Kits de mantenimiento preventivo para vehículos">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Kits de Mantenimiento Preventivo</h3>
+                            <p>Paquetes completos de filtros, bujías, bandas y fluidos listos para el cambio de aceite periódicos.</p>
+                            <span class="tarjeta-info">Desde $120.000 COP</span>
+                            <a href="#contacto" class="boton boton-tarjeta">Ver Kits</a>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 6 -->
+                    <article class="tarjeta">
+                        <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=600&q=80" alt="Identificación exacta de piezas por código VIN">
+                        <div class="tarjeta-cuerpo">
+                            <h3>Identificación Exacta por Código VIN</h3>
+                            <p>Verificación técnica en catálogos oficiales mediante el número de chasis para evitar errores de montaje.</p>
+                            <span class="tarjeta-info">Error 0% en Compatibilidad</span>
+                            <a href="#contacto" class="boton boton-tarjeta">Validar mi VIN</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- 5. SECCIÓN BENEFICIOS / SERVICIOS          -->
+        <!-- ========================================== -->
+        <section id="servicios" class="seccion servicios">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Por Qué Elegirnos</h2>
+                <p class="subtitulo-seccion">Beneficios clave para la tranquilidad de su vehículo</p>
+
+                <div class="servicios-contenedor">
+                    
+                    <div class="servicio-bloque">
+                        <div class="servicio-icono">✓</div>
+                        <h3>Calidad Garantizada</h3>
+                        <p>Trabajamos únicamente con repuestos originales OEM y marcas homologadas probadas en durabilidad y rendimiento.</p>
+                    </div>
+
+                    <div class="servicio-bloque">
+                        <div class="servicio-icono">🔍</div>
+                        <h3>Verificación VIN Precisa</h3>
+                        <p>Analizamos el número de chasis de su vehículo para entregar exacto el repuesto que su automóvil requiere.</p>
+                    </div>
+
+                    <div class="servicio-bloque">
+                        <div class="servicio-icono">⚡</div>
+                        <h3>Atención Especial para Mecánicos</h3>
+                        <p>Descuentos corporativos y prioridad en entregas para talleres independientes y flotas comerciales.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- 6. TABLA DE COMPATIBILIDAD Y SERVICIOS     -->
+        <!-- ========================================== -->
+        <section class="seccion tabla-seccion">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Catálogo de Marcas y Tiempos de Entrega</h2>
+                <p class="subtitulo-seccion">Consulta la disponibilidad de nuestras líneas principales de repuestos</p>
+
+                <div class="tabla-contenedor">
+                    <table class="tabla-repuestos">
+                        <thead>
+                            <tr>
+                                <th>Marca de Vehículo</th>
+                                <th>Línea de Repuestos</th>
+                                <th>Disponibilidad</th>
+                                <th>Tiempo de Entrega (Medellín)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>KIA / HYUNDAI</td>
+                                <td>Motor, Suspensión y Frenos</td>
+                                <td>Stock Inmediato</td>
+                                <td>Mismo día (2 - 4 Horas)</td>
+                            </tr>
+                            <tr>
+                                <td>DFSK / CHERY</td>
+                                <td>Motor, Filtros y Transmisión</td>
+                                <td>Stock Inmediato</td>
+                                <td>Mismo día (2 - 4 Horas)</td>
+                            </tr>
+                            <tr>
+                                <td>JAC / FOTON</td>
+                                <td>Partes Comerciales y Diésel</td>
+                                <td>Stock Alto</td>
+                                <td>24 Horas</td>
+                            </tr>
+                            <tr>
+                                <td>GREAT WALL / GEELY</td>
+                                <td>Carrocería e Iluminación</td>
+                                <td>Bajo Pedido</td>
+                                <td>24 a 48 Horas</td>
+                            </tr>
+                            <tr>
+                                <td>KGM / SSANGYONG</td>
+                                <td>Kits de Distribución y Sensores</td>
+                                <td>Stock Medio</td>
+                                <td>Mismo día</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- 7. GALERÍA DE IMÁGENES                     -->
+        <!-- ========================================== -->
+        <section id="galeria" class="seccion galeria">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Galería de Productos e Instalaciones</h2>
+                <p class="subtitulo-seccion">Conozca nuestro inventario y la calidad de nuestras autopartes</p>
+
+                <div class="galeria-contenedor">
+                    <div class="galeria-item">
+                        <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=600&q=80" alt="Pastillas y discos de freno nuevos para autos coreanos">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=600&q=80" alt="Componentes de motor y pistones de repuesto">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=600&q=80" alt="Sistemas de amortiguación y suspensión automotriz">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=600&q=80" alt="Kits de filtros de aceite y aire para mantenimiento">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=600&q=80" alt="Revisión de correas y distribución en el taller">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=600&q=80" alt="Almacén con estanterías de autopartes clasificadas">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- 8. FORMULARIO DE CONTACTO                  -->
+        <!-- ========================================== -->
+        <section id="contacto" class="seccion contacto">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Contáctanos</h2>
+                <p class="subtitulo-seccion">Enviamos cotizaciones en menos de 15 minutos</p>
+
+                <form class="formulario-contacto">
+                    <div class="grupo-campo">
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="telefono">Teléfono / WhatsApp:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ej. 300 151 4554" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="ciudad">Ciudad:</label>
+                        <input type="text" id="ciudad" name="ciudad" value="Medellín" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="servicio">Servicio de Interés:</label>
+                        <select id="servicio" name="servicio" required>
+                            <option value="" disabled selected>Seleccione una opción</option>
+                            <option value="vin">Identificación exacta por código VIN</option>
+                            <option value="mantenimiento">Kits de mantenimiento preventivo</option>
+                            <option value="importacion">Búsqueda e importación bajo pedido</option>
+                            <option value="logistica">Logística y despacho especializado</option>
+                            <option value="asesoria">Asesoría y verificación digital</option>
+                            <option value="postventa">Servicio postventa y fidelización</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo-campo campo-ancho-completo">
+                        <label for="mensaje">Mensaje o Referencia del Repuesto (Año, Modelo, Marca, VIN):</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escriba el modelo de su carro, año y las piezas que requiere..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="boton boton-principal campo-ancho-completo">Enviar Solicitud de Cotización</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========================================== -->
+    <!-- 9. PIE DE PÁGINA (FOOTER) CON FLEXBOX       -->
+    <!-- ========================================== -->
+    <footer class="pie-pagina">
+        <div class="contenedor pie-pagina-contenido">
+            
+            <div class="columna-footer">
+                <h3>AUTO PARTES CHINOS Y KOREANOS</h3>
+                <p class="eslogan-footer">El poder de mantenerte en marcha</p>
+                <p>Especialistas en vehículos particulares y comerciales.</p>
+            </div>
+
+            <div class="columna-footer">
+                <h4>Contacto Directo</h4>
+                <p>📍 Ciudad: Medellín, Colombia</p>
+                <p>📞 Teléfono: 300 151 4554</p>
+                <p>✉️ Correo: autoparteschinosykoreanos@ejemplo.com</p>
+            </div>
+
+            <div class="columna-footer">
+                <h4>Redes Sociales</h4>
+                <p>Síguenos en Instagram:</p>
+                <a href="https://instagram.com" target="_blank" class="enlace-redes">@chinosykoreanos</a>
+            </div>
+
+        </div>
+
+        <div class="derechos-autor">
+            <p>© 2026 AUTO PARTES CHINOS Y KOREANOS — Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
